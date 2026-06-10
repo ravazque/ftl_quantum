@@ -1,2 +1,19 @@
-docs/info.md
-docs/Ftl_quantum.pdf
+# Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Credentials (IBM Quantum API token)
+.env
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
